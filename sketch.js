@@ -43,6 +43,7 @@ function update(){
       craftSprite.x++;
     }else if(state === "down"){
       craftSprite.changeImage("Down");
+      craftSprite.y++;
     }else if(state === "up"){
       craftSprite.y--;
     }else{
